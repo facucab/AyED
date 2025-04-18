@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1743878027 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Calcular.h"
+
+1743877850 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 2\calcular.h
+	<stdio.h>
+	<stdlib.h>
+
+1743878132 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 2\calcular.c
+	"Calcular.h"
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1743878827 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 3\funcionesarchivo.c
+	"FuncionesArchivo.h"
+
+1743878730 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 3\funcionesarchivo.h
+	<stdio.h>
+	<stdlib.h>
+
+1743953814 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 3\tdavector.c
+	"TDAVector.h"
+
+1743953539 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 3\tdavector.h
+	<stdio.h>
+	<stdlib.h>
+
+1743953871 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\00_repaso\ejercicio 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDAVector.h"
+

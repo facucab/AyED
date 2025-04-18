@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1744656789 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_1\ejercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDAProducto.h"
+
+1744656497 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_1\ejercicio 2\tdaproducto.c
+	"TDAProducto.h"
+
+1744656469 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_1\ejercicio 2\tdaproducto.h
+	<stdio.h>
+	<stdlib.h>
+
