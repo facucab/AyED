@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="PilaHibrida" />
+		<Option title="Ejercicio_2_7" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/PilaHibrida" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Ejercicio_2_7" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/PilaHibrida" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Ejercicio_2_7" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -38,10 +38,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="pila.h" />
-		<Unit filename="test.c">
+		<Unit filename="sum.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="test.h" />
+		<Unit filename="sum.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
