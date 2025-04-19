@@ -1,13 +1,23 @@
 # depslib dependency file v1.0
-1745004819 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\pila.c
+1745071941 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\pila.c
 	"pila.h"
 
-1745004609 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\pila.h
+1745074432 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\pila.h
 	<string.h>
+	<stdio.h>
 	<stdlib.h>
 
-1745004257 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\main.c
+1745074739 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\main.c
 	<stdio.h>
 	<stdlib.h>
 	"pila.h"
+	"test.h"
+
+1745073178 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\test.h
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+
+1745074009 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\pilahibrida\test.c
+	"test.h"
 

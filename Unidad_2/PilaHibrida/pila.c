@@ -43,7 +43,7 @@ int ponerEnPila(tPila * pila, const void * dato, unsigned tamDato)
     memcpy(nuevo, dato, tamDato);
 
     pila->tope -= 1;
-    pila->datos[pila->tope] = nuevo;
+    *(pila->datos + pila->tope) = nuevo;
 
     return 1;
 }
@@ -63,17 +63,62 @@ int verTope(const tPila * pila, void * dato, unsigned tamDato)
         return 0;
     }
 
-    void ** ptrTope = pila->datos + pila->tope;
+    void * ptrTope = *(pila->datos + pila->tope);
 
-    memcpy(dato, *ptrTope, tamDato);
+    memcpy(dato, ptrTope, tamDato);
     return 1;
 }
 
 
 /**
-*
+* Esta función saca el tope de la pila.
+* @param pila - puntero a la pila donde se va a obtener el topper.
+* @param dato - dirección donde se va a copiar el tope.
+* @param tamDato - tamaño del dato.
+* @return int - 1 si se saco el tope de la pila. 0 si no fue posible.
 */
 int sacarDePila(tPila * pila, void * dato, unsigned tamDato)
 {
+    if(pila->tope == CANT_MAX)
+    {
+        puts("Pila vacia");
+        return 0;
+    }
 
+    void **ptrTope = pila->datos+ pila->tope;
+    void * datoPila = *ptrTope ;
+
+    memcpy(dato, datoPila, tamDato);
+
+    free(datoPila);
+    pila->tope+=1;
+    return 1;
+}
+
+/**
+* Esta función valida si la pila esta vacia.
+* @param pila - puntero a la pila que se va a validar si esta vacia.
+* @return int - 1 si la pila esta vacia. 0 si la pila NO esta vacia.
+*/
+int pilaVacia(const tPila * pila)
+{
+    return pila->tope == CANT_MAX;
+}
+
+/**
+* Esta funcíon se encarga de vaciar la pila.
+* Libera la memoria dinamica de cada elemento.
+* @param pila - puntero a la pila que se va a vaciar.
+*/
+void vaciarPila(tPila * pila)
+{
+    void **ptr = pila->datos + pila->tope;
+
+    while(ptr < pila->datos + CANT_MAX)
+    {
+        free(*ptr);
+        ptr++;
+    }
+
+    pila->tope = CANT_MAX;
 }
