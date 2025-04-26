@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1745693960 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\coladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cola.h"
+
+1745691062 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\coladinamica\cola.h
+	<stdlib.h>
+	<string.h>
+
+1745694010 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\coladinamica\cola.c
+	"cola.h"
+
