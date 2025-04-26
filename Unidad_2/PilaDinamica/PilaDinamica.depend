@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1745681951 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\piladinamica\pila.c
+	"pila.h"
+
+1745678061 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\piladinamica\pila.h
+	"stdlib.h"
+	"string.h"
+
+1745682095 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_2\piladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+

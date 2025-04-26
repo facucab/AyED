@@ -1,7 +1,9 @@
 #include "sum.h"
 
+
 /**
-*
+* Esta función suma dos numeros con pila y los devuelve en un archivo.
+* El algortimo consiste en depositar los dos numeros en dos pilas distintas (quedan en orden inversos) y luego sumar en una tercera pila.
 */
 int sumarNum(const char * num1, const char * num2)
 {
@@ -24,7 +26,9 @@ int sumarNum(const char * num1, const char * num2)
     if(!sumarPilas(&numPila1, &numPila2, &resultado)) return ERR_PILA_RES;
 
     // muestro resultado:
-    mostrarResultado(&resultado);
+
+    //mostrarResultado(&resultado);
+    cargarResultado(&resultado);
     return 1;
 }
 
@@ -88,4 +92,78 @@ void mostrarResultado(tPila * num1)
         printf("%hd", v);
     }
     mostrarResultado(num1);
+}
+
+/**
+* Lee un numero desde un archivo y lo copia en una cadena.
+* @param nombre - nombre del archivo.
+* @param cadena - cadena donde se va a copiar el numero.
+* @param tamCadena - tamaño de la cadena.
+* @return int - 1 si el archivo fue creado. 0 si hubo algun error.
+*/
+int leerNumeroArch(const char * nombre, char * cadena, unsigned tamCadena)
+{
+    FILE * arch = fopen(nombre, "rt");
+    if(!arch)
+    {
+        printf("ERROR EN LA APERTURA DE ARCHIVO \n");
+        return 0;
+    }
+
+    if(!fgets(cadena, tamCadena, arch))
+    {
+        printf("ERROR ARCHIVO");
+        return 0;
+    }
+
+    fclose(arch);
+    return 1;
+}
+
+
+/**
+* Crear un archivo de prueba con el numero enviado.
+* @param nombre - nombre del archivo.
+* @param numero - numero a grabar en el archivo.
+* @return int - 1 si el archivo fue creado. 0 si hubo algun error.
+*/
+int crearArchNum(const char * nombre, char * numero)
+{
+    FILE * arch = fopen(nombre, "wt");
+    if(!arch)
+    {
+        printf("ERROR EN LA CREACION DE ARCHIVO");
+        return 0;
+    }
+
+    fprintf(arch, "%s", numero);
+    fclose(arch);
+
+    return 1;
+}
+
+/**
+*
+*/
+int cargarResultado(tPila * pila)
+{
+    short valor;
+    FILE * arch = fopen("resultado.txt", "wt");
+    if(!arch)
+    {
+        printf("ERROR EN ARCHIVO DE RESPUESTA");
+        return 0;
+    }
+
+
+    while(!pilaVacia(pila))
+    {
+        if(sacarDePila(pila, &valor, sizeof(valor)))
+        {
+            fprintf(arch, "%hd", valor);
+        }
+    }
+
+    fclose(arch);
+    return 1;
 }
