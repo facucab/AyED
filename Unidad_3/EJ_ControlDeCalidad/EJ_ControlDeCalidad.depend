@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1745695394 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\ej_controldecalidad\cola.c
+	"cola.h"
+
+1745695387 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\ej_controldecalidad\cola.h
+	<stdlib.h>
+	<string.h>
+
+1745882825 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\ej_controldecalidad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cola.h"
+	"Funciones.h"
+
+1745882387 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\ej_controldecalidad\funciones.h
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	"cola.h"
+
+1745882917 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_3\ej_controldecalidad\funciones.c
+	"Funciones.h"
+
