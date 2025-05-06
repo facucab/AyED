@@ -44,7 +44,7 @@ int colaLlena(const tCola * cola, unsigned tamDato)
 * @param tamDato - cantidad de bytes que se van a guardar en la cola.
 * @return int - 1 si el elemento se agrego a la cola. 0 si el elemento no se agrego a la cola.
 */
-int ponerEnCola(tCola * cola, void * dato, unsigned tamDato)
+int ponerEnCola(tCola * cola, const void * dato, unsigned tamDato)
 {
     tNodo * nuevoNodo = (tNodo *)malloc(sizeof(tNodo));
     if(!nuevoNodo) return 0;
