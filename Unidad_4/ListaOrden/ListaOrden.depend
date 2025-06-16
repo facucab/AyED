@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1747179363 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_4\listaorden\lista.c
+	"lista.h"
+
+1747178845 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_4\listaorden\lista.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1747179506 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\unidad_4\listaorden\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+

@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1750012240 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\unidad 2\ejercicio_1_2\pila.c
+	"Pila.h"
+
+1750027697 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\unidad 2\ejercicio_1_2\pila.h
+	<string.h>
+
+1750029189 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\unidad 2\ejercicio_1_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pila.h"
+	"PilaDin.h"
+
+1750028306 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\unidad 2\ejercicio_1_2\piladin.c
+	"PilaDin.h"
+
+1750029208 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\unidad 2\ejercicio_1_2\piladin.h
+	<string.h>
+	<stdlib.h>
+
