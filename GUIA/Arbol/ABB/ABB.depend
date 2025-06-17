@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1750202395 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\arbol\abb\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+
+1750202413 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\arbol\abb\arbol.h
+	<string.h>
+	<stdlib.h>
+
+1750202505 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\arbol\abb\arbol.c
+	"arbol.h"
+

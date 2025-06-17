@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1750100585 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\lista\listasimple\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1750099463 c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\lista\listasimple\lista.h
+	<string.h>
+	<stdlib.h>
+
+1750099915 source:c:\users\usuario\documents\1_2025_cuatrimestre\algoritmos y estructuras de datos\guia\lista\listasimple\lista.c
+	"Lista.h"
+
